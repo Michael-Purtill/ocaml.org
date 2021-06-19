@@ -125,7 +125,7 @@ let rec is_primary = function
 ## Constructors with data
 
 Each constructor in a data type can carry additional information with it. Let's
-extend our `colour` type to allow arbitrary RGB triples, each element begin a
+extend our `colour` type to allow arbitrary RGB triples, each element being a
 number from 0 (no colour) to 1 (full colour): 
 
 ```ocamltop
